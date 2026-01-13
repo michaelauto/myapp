@@ -1,8 +1,8 @@
 name: Fetch and Upload Satellite Image to Cloudflare R2
 
 on:
-  schedule:
-    - cron: "*/55 0-14 * * *"  # 每20分钟运行（UTC时间），按需启用
+#  schedule:
+#    - cron: "*/55 0-14 * * *"  # 每20分钟运行（UTC时间），按需启用
   workflow_dispatch:
 
 jobs:
